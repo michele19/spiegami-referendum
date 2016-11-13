@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ExplainToMe from './material/ExplainToMe.js'
+import ExplainTheorem from './ExplainTheorem.js'
+
 
 const AndList = (props) => <ol>{props.val}</ol>
 const OrList = (props) => <ul>{props.val}</ul>
@@ -70,68 +73,135 @@ class App extends Component {
               [{"il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55.": []}]},
             {"obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco": []}]}
          ]},
-      AperB: {"A":
+      AperB: {"prendo l'ombrello":
         [
-          {"B": []}
+          {"piove": []}
         ]
       },
-      AperBeC: {"A":
+      AperBeC: {"prendo l'ombrello":
         [
-          {"B": []},
-          {"C": []}
+          {"piove": []},
+          {"quando piove prendo l'ombrello": []}
         ]
       },
-      AperBoC: {"A":
+      AperBoC: {"prendo l'ombrello":
         [
-          {"B": [], "C": []}
+          {"piove": [], "sta per piovere": []}
         ]
       },
-      AperBoCeD: {"A":
+      AperBoCeD: {"prendo l'ombrello":
         [
-          {"B": [], "C": []},
-          {"D": []}
+          {"piove": [], "sta per piovere": []},
+          {"quando piove voglio avere con me l'ombrello": []}
+        ]
+      },
+      complesso: {"prendo l'ombrello":
+        [
+          {"piove": [], "sta per piovere": []},
+          {"quando piove voglio avere con me l'ombrello": []}
         ]
       },
     }
   }
-
-  traverse(tree) {
-    if (!tree) {
-      return ''
-    } else if (typeof(tree) === 'string') {
-      return <div>{tree}</div>
-    } else if (Array.isArray(tree)) {
-      if (tree.length === 0) {
-        return ''
-      } else if (tree.length === 1) {
-        return this.traverse(tree[0])
-      } else {
-        const acc = tree.map((el,i) => <li key={i}>{this.traverse(el)}</li>)
-        return <AndList val={acc} />
-      }
-    } else if (typeof(tree) === "object") {
-      let acc = []
-      for (var i in tree) {
-        if (tree.hasOwnProperty(i)) {
-          acc.push([this.traverse(i),this.traverse(tree[i])]);
-        }
-      }
-      const accMap = acc.map((el,i) => <li key={i}>{el[0]}{el[1]}</li>);
-      return <OrList val={accMap} />
-    }
-  }
-
 
   render() {
     return (
       <div>
-        <div>Spiegami SI<br/> {this.traverse(this.state.spiegamiSI)}</div>
-        <div>Spiegami NO<br/> {this.traverse(this.state.spiegamiNO)}</div>
+        <ExplainTheorem />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <ExplainToMe thesis="Spiegami SI" argument={this.state.spiegamiSI} />
+        <ExplainToMe thesis="Spiegami NO" argument={this.state.spiegamiNO} />
         <hr/>
-        <div>A perché B <br/> {this.traverse(this.state.AperB)}</div>
-        <div>A perché B e C<br/> {this.traverse(this.state.AperBeC)}</div>
-        <div>A perché B, C <br/> {this.traverse(this.state.AperBoC)}</div>
-        <div>A perché D e B, C <br/> {this.traverse(this.state.AperBoCeD)}</div>
+        <ExplainToMe thesis="A perché B" argument={this.state.AperB} />
+        <ExplainToMe thesis="A perché B e C" argument={this.state.AperBeC} />
+        <ExplainToMe thesis="A perché B, C" argument={this.state.AperBoC} />
+        <ExplainToMe thesis="A perché D e B, C" argument={this.state.AperBoCeD} />
+        <hr/>
+        <ExplainToMe thesis="perché ho preso l'ombrello v1" argument={this.state.AperB} />
+        <ExplainToMe thesis="perché ho preso l'ombrello v2" argument={this.state.AperBeC} />
+        <ExplainToMe thesis="perché ho preso l'ombrello v3" argument={this.state.AperBoC} />
+        <ExplainToMe thesis="perché ho preso l'ombrello v4" argument={this.state.AperBoCeD} />
+        <hr/>
       </div>
     );
   }

@@ -1,0 +1,33 @@
+{
+	"claim": "prendo l'ombrello",
+	"connector": "o",
+	"reasons": [
+		{
+			"connector": "e",
+	  	"reasons": [
+	  		{
+	  			"connector": "o",
+	  			"reasons": [
+	  				{"claim": "piove"},
+	  				{"claim": "sta per piovere",
+	  					"connector": "e",
+	  					"reasons": [
+	  						{"claim": "ci sono nuvole cariche di pioggia"},
+	  						{"claim": "il vento sta spingendo le nuvole qui"}
+	  					]
+	  				}
+	  			]
+		  	},
+	  		{"claim": "non voglio bagnarmi"}
+	  	]
+	  },
+	  {
+	  	"connector": "e",
+	  	"reasons": [
+	  		{"claim": "devo stare al sole per ore"},
+	  		{"claim": "non voglio scottarmi"}
+			]
+	  }
+	],
+}
+
