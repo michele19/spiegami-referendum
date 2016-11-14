@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-import Theorem, {TheoremToMaterial} from './Theorem.js'
+import Theorem, { theoremToMaterial, jsonToTheorem, jsonToMaterial } from './Theorem.js'
 
 import Subheader from 'material-ui/Subheader';
 import Paper from 'material-ui/Paper'
 import Divider from 'material-ui/Divider';
 import {List, ListItem} from 'material-ui/List';
-
+import { theorems, uno, due, tre, quattro } from './theorems.json'
 
 export default class ExplainTheorem extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ export default class ExplainTheorem extends Component {
 
 
 	render() {
-		const asdasd = TheoremToMaterial(this.state.complesso)
+		const render_from_theorem = theoremToMaterial(this.state.complesso)
 		return (
 			<div>
 			<Paper>
@@ -98,7 +98,17 @@ export default class ExplainTheorem extends Component {
 				</List>
 			</Paper>
 			<br/>
-			{asdasd}
+			{render_from_theorem}
+			<br/>
+			{jsonToMaterial(theorems)}
+			<br/>
+			{jsonToMaterial(uno)}
+			<br/>
+			{jsonToMaterial(due)}
+			<br/>
+			{jsonToMaterial(tre)}
+			<br/>
+			{jsonToMaterial(quattro)}
 			</div>
 		)
 	}

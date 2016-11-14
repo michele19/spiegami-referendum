@@ -8,7 +8,7 @@ injectTapEventPlugin();
 
 ReactDOM.render(
   <MuiThemeProvider>
-  	<App />
+    <App />
   </MuiThemeProvider>,
   document.getElementById('root')
 );

@@ -19,7 +19,7 @@ export default class Theorem {
 	}
 }
 
-export function TheoremToMaterial(theorem) {
+export function theoremToMaterial(theorem) {
 	if (theorem.reasons.length === 0) {
 		return <ListItem
 			key={theorem.claim}
@@ -29,19 +29,17 @@ export function TheoremToMaterial(theorem) {
 		theorem.connector === "o" &&
 		!theorem.claim
 	) {
-		const listItems = theorem.reasons.map(TheoremToMaterial)
+		const listItems = theorem.reasons.map(theoremToMaterial)
 		return (
-			<Paper>
-				<List>
-					{listItems}
-				</List>
-			</Paper>
+			<List>
+				{listItems}
+			</List>
 		)
 	} else if (
 		theorem.connector === "o" &&
 		theorem.claim
 	) {
-		const listItems = theorem.reasons.map(TheoremToMaterial)
+		const listItems = theorem.reasons.map(theoremToMaterial)
 		console.log(listItems)
 		return (
 			<Paper>
@@ -60,14 +58,18 @@ export function TheoremToMaterial(theorem) {
 		theorem.connector === "e" &&
 		!theorem.claim
 	) {
-		const listItems = theorem.reasons.map(TheoremToMaterial)
+		const listItems = theorem.reasons.map(theoremToMaterial)
 		const paperItems = listItems.map((item) => <Paper><List>{item}</List></Paper>)
-		return paperItems
+		return (
+			<ListItem>
+				{paperItems}
+			</ListItem>
+		)
 	} else if (
 		theorem.connector === "e" &&
 		theorem.claim
 	) {
-		const listItems = theorem.reasons.map(TheoremToMaterial)
+		const listItems = theorem.reasons.map(theoremToMaterial)
 		const paperItems = listItems.map((item) => <Paper><List>{item}</List></Paper>)
 		return (
 			<ListItem
@@ -80,4 +82,15 @@ export function TheoremToMaterial(theorem) {
 		)
 	}
 
+}
+
+export function jsonToTheorem(json) {
+	const claim = json.claim ? json.claim : "";
+	const connector = json.connector ? json.connector : "";
+	const reasons = json.reasons ? json.reasons.map(jsonToTheorem) : []
+	return new Theorem(claim, connector, reasons)
+}
+
+export function jsonToMaterial(json) {
+	return theoremToMaterial(jsonToTheorem(json))
 }
