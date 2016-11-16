@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import ExplainToMe from './material/ExplainToMe.js'
+import ExplainTheorem from './ExplainTheorem.js'
 import Theorem, { jsonToMaterial } from './Theorem.js'
-import { spiegamiSI } from './theorems.json'
+
+
+const AndList = (props) => <ol>{props.val}</ol>
+const OrList = (props) => <ul>{props.val}</ul>
 
 class App extends Component {
   constructor(props) {
@@ -107,7 +112,12 @@ class App extends Component {
   render() {
     return (
       <div>
-        {jsonToMaterial(spiegamiSI)}
+        <br />
+        {jsonToMaterial(this.state.complesso)}
+        <br />
+        <ExplainToMe thesis="Spiegami SI" argument={this.state.spiegamiSI} />
+        <ExplainToMe thesis="Spiegami NO" argument={this.state.spiegamiNO} />
+        <hr/>
       </div>
     );
   }
