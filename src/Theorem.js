@@ -8,7 +8,6 @@ export default class Theorem {
 		this.reasons = reasons;
 		this.connector = connector;
 		this.claim = claim;
-		this.uniqueKey = Math.floor(Math.random()*1000000000000000)
 	}
 	get getClaim() {
 		return this.claim || this.reasons.map((th) => th.getClaim).join(' ' + this.connector + ' ');
@@ -22,10 +21,10 @@ export default class Theorem {
 export function theoremToMaterial(theorem) {
 	if (theorem.reasons.length === 0) {
 		return (
-					<ListItem
-						key={theorem.uniqueKey}
-						primaryText={theorem.claim}
-					/>
+			<ListItem
+				key={theorem.claim}
+				primaryText={theorem.claim}
+			/>
 		)
 	} else if (
 		theorem.connector === "o" &&
@@ -44,7 +43,7 @@ export function theoremToMaterial(theorem) {
 		const listItems = theorem.reasons.map(theoremToMaterial)
 		return (
 					<ListItem
-						key={theorem.uniqueKey}
+						key={theorem.claim}
 						primaryText={theorem.claim}
 						secondaryText={theorem.preview}
 						primaryTogglesNestedList={true}
@@ -63,7 +62,7 @@ export function theoremToMaterial(theorem) {
 			)
 		)
 		return (
-			<ListItem key={theorem.uniqueKey}>
+			<ListItem key={theorem.claim}>
 				{paperItems}
 			</ListItem>
 		)
@@ -72,11 +71,10 @@ export function theoremToMaterial(theorem) {
 		theorem.claim
 	) {
 		const listItems = theorem.reasons.map(theoremToMaterial)
-		console.log(listItems)
-		const paperItems = listItems.map((item) => <Paper><List>{item}</List></Paper>)
+		const paperItems = listItems.map((item, index) => <Paper key={index}><List>{item}</List></Paper>)
 		return (
 			<ListItem
-				key={theorem.uniqueKey}
+				key={theorem.claim}
 				primaryText={theorem.claim}
 				secondaryText={theorem.preview}
 				primaryTogglesNestedList={true}
