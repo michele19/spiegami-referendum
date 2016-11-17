@@ -16,7 +16,7 @@ export default class Navigation extends Component {
     return (
       <div>
         <MainAppBar
-          title="Senato - Ruolo e funzioni"
+          title={this.props.title}
           onCloseTouch={this.handleDrawerToggle}
         />
         <LateralMenu

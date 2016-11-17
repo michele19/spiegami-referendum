@@ -15,6 +15,12 @@ export default class Theorem {
 	get preview() {
 		return this.reasons.map((th) => th.getClaim).join(' ' + this.connector + ' ');
 	}
+	get human_count_or() {
+		return "per " + this.reasons.length + (this.reasons.length === 1 ? " motivo" : " motivi");
+	}
+	get human_count_and() {
+		return "per il seguente motivo, in " + this.reasons.length + (this.reasons.length === 1 ? " punto" : " punti");
+	}
 }
 
 
@@ -45,7 +51,7 @@ export function theoremToMaterial(theorem) {
 					<ListItem
 						key={theorem.claim}
 						primaryText={theorem.claim}
-						secondaryText={theorem.preview}
+						secondaryText={theorem.human_count_or}
 						primaryTogglesNestedList={true}
 						nestedItems={listItems}
 					/>
@@ -76,7 +82,7 @@ export function theoremToMaterial(theorem) {
 			<ListItem
 				key={theorem.claim}
 				primaryText={theorem.claim}
-				secondaryText={theorem.preview}
+				secondaryText={theorem.human_count_and}
 				primaryTogglesNestedList={true}
 				nestedItems={[<ListItem key={1}>{paperItems}</ListItem>]}
 			/>

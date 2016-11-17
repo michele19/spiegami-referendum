@@ -7,6 +7,8 @@ import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
+import NavLink from './NavLink'
+
 export default class LateralMenu extends React.Component {
 
   render() {
@@ -20,13 +22,13 @@ export default class LateralMenu extends React.Component {
           <ListItem
             key="senato"
             primaryText="Senato"
-            primaryTogglesNestedList={true}
-            open={true}
+            primaryTogglesNestedList
+            open
             nestedItems={[
-              <MenuItem key="ruolo_e_funzioni" primaryText="Ruolo e funzioni" />,
-              <MenuItem disabled={true} key="modalita_di_elezione" primaryText="Modalità di elezione" />,
-              <MenuItem disabled={true} key="il_procedimento_legislativo" primaryText="Il procedimento legislativo" />,
-              <MenuItem disabled={true} key="i_diritti_dei_senatori" primaryText="I diritti dei senatori" />
+              <MenuItem containerElement={<NavLink to="/referendum/senato/ruolo_e_funzioni" />} key="ruolo_e_funzioni" primaryText="Ruolo e funzioni" />,
+              <MenuItem containerElement={<NavLink to="/referendum/senato/modalità_di_elezione" />} key="modalità_di_elezione" primaryText="Modalità di elezione" />,
+              <MenuItem disabled key="il_procedimento_legislativo" primaryText="Il procedimento legislativo" />,
+              <MenuItem disabled key="i_diritti_dei_senatori" primaryText="I diritti dei senatori" />
             ]}
           />
           <Divider />

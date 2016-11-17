@@ -1,3 +1,4 @@
+{"referendum":
 { "senato":
 	{
 		"ruolo_e_funzioni_SI": {
@@ -118,6 +119,70 @@
 	        ]
 	      }
 	    ]
-	  }
+	  },
+	  "modalità_di_elezione_SI": {
+	                         "claim": "È giusto ridurre il numero dei senatori",
+	                         "connector": "o",
+	                         "reasons": [
+	                                 {"claim": "per la diversa rappresentanza delle camere",
+	                                         "connector": "o",
+	                                         "reasons": [
+	                                                 {"claim": "mentre i componenti della Camera continueranno a rappresentare l'intera Nazione, quelli del Senato rappresenteranno le istituzioni territoriali e proverranno, per la quasi totalità, dalle Regioni e dai Comuni"},
+	                                                 {"claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"}
+	                                         ]
+	                                 },
+	                                 {"claim": "per ridurre i costi",
+	                                         "connector": "o",
+	                                         "reasons": [
+	                                                 {"claim": "la misura rientra nell'ambito di uno sforzo complessivo per ridurre o contenere alcuni costi della politica"}
+	                                                                         ]
+	                                                                 },
+	                                 {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
+	                                 "connector": "o" ,
+	                                 "reasons" : [
+	                                   {"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}
+	                                   ]
+
+	                                 }
+	             ]
+	           },
+	           "modalità_di_elezione_NO": {
+	                                   "claim": "Non è giusto modificare il numero dei senatori",
+	                                   "connector": "o",
+	                                   "reasons": [
+	                                           {"claim": "per l'irrazionale squilibrio che si verrebbe a creare tra le due camere",
+	                                                   "connector": "o",
+	                                                   "reasons": [
+	                                                           {"claim": "la riforma sottodimensiona irrazionalmente la composizione del Senato (100 senatori) rispetto alla composizione della Camera dei deputati (630 deputati)",
+	                                                             "connector" : "o" ,
+	                                                             "reasons": [
+	                                                              {"claim": "rende quindi praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."}
+	                                                               ]
+	                                                           }
+
+	                                                   ]
+	                                           },
+	                                           {"claim": "perchè i costi verrebbero ridotti, ma...",
+	                                                   "connector": "o",
+	                                                   "reasons": [
+	                                                           {"claim": "il risparmio è di spiccioli" ,
+	                                                           "connector" : "o",
+	                                                           "reasons": [
+	                                                             {"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"}
+	                                                               ]
+	                                                                           } ,
+	                                                                           {"claim": "la riduzione dei cosiddetti costi della politica non sempre equivale a qualcosa di buono. La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"}
+	                                                             ]
+	                                                                           },
+	                                           {"claim": "non ha senso che personalità che hanno illustrato la Patria per altissimi meriti vadano ad esercitare il loro magistero culturale nel senato" ,
+	                                           "connector": "o" ,
+	                                           "reasons" : [
+	                                             {"claim": "esso infatti rappresenta esclusivamente le istituzioni territoriali e la sua funzione è di operare un raccordo tra lo Stato e gli altri enti costitutivi della Repubblica. Sarebbe stato molto più logico che questo pubblico riconoscimento fosse previsto nell’ambito della Camera dei deputati, la sola a mantenere le funzioni di rappresentanza generale del popolo italiano"}
+	                                             ]
+
+	                                           }
+	                       ]
+	                     }
 	}
+}
 }
