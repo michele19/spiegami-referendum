@@ -40,13 +40,11 @@ export default class LateralMenu extends React.Component {
                 containerElement={<NavLink to="/referendum/senato/il_procedimento_legislativo" />}
                 key="il_procedimento_legislativo"
                 primaryText="Il procedimento legislativo"
-                rightIcon={<ActionFeedback/>}
               />,
               <MenuItem
                 containerElement={<NavLink to="/referendum/senato/diritti_dei_senatori_e_statuto_delle_minoranze" />}
                 key="diritti_dei_senatori_e_statuto_delle_minoranze"
                 primaryText="I diritti dei senatori"
-                rightIcon={<ActionFeedback/>}
               />
             ]}
           />

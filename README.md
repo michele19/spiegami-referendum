@@ -11,7 +11,7 @@ Il materiale sul Referendum è tratto da [referendumcostituzionale2016.it](http:
 - [ ] Questioni politiche, generali e di metodo
 
 ### Revisione
-- [ ] Riforma del Senato
+- [x] Riforma del Senato
 - [ ] Rapporto Stato - Regioni
 - [ ] Tutto il resto
 - [ ] Questioni politiche, generali e di metodo
