@@ -1,188 +1,356 @@
-{"referendum":
-{ "senato":
-	{
-		"ruolo_e_funzioni_SI": {
-			"claim": "E' giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
-			"connector": "o",
-			"reasons": [
-				{"claim": "per ragioni storiche",
-					"connector": "o",
-					"reasons": [
-						{"claim": "perché era previsto anche dalla riforma del Titolo V del 2001"},
-						{"claim": "perché non è come i Costituenti avrebbero voluto",
-							"connector": "o",
-							"reasons": [{"claim": "Il Senato voluto dai nostri costituenti doveva essere rappresentativo delle Regioni ed essere molto diverso dalla Camera, per durata in carica e sistema elettorale. Ma poi, per una scelta delle maggioranze di governo, l'istituzione delle regioni venne ritardata di 22 anni, e con una riforma costituzionale venne stabilita la perfetta parità delle due Camere"}]
-						}
-					]
-				},
-				{"claim": "perché giustamente coinvolge stabilmente le regioni",
-					"connector": "e",
-					"reasons": [
-						{"claim": "perché coinvolge stabilmente le regioni"},
-						{"claim": "coinvolgere stabilmente le regioni è buono",
-							"connector": "o",
-							"reasons": [
-								{"claim": "coinvolgere stabilmente le regioni riduce le conflittualità e i ritardi nelle discussioni delle leggi",
-									"connector": "o",
-									"reasons": [
-										{"claim": "le regioni devono poter decidere quali siano gli interessi in gioco prima che le leggi entrino in vigore"},
-										{"claim": "l'intervento delle regioni prima dell'entrata in vigore delle leggi riduce il ricorso alla Corte Costituzionale"}
-									]
-								},
-								{"claim": "coinvolgere stabilmente le regioni aumenta il tasso di democraticità del nostro sistema"}
-							]
-						}
-					]
-				},
-				{"claim": "perché se viene eletto diversamente dalla Camera è giusto che abbia funzioni diverse"},
-				{"claim": "perché è in linea con altre esperienze di Paesi europei che in generale hanno funzionato bene",
-					"connector": "e",
-					"reasons": [
-						{"claim": "è in linea con le esperienze di altri Paesi europei",
-							"connector": "o",
-							"reasons": [{"claim": "in Europa, tutti i Senati rappresentativi delle autonomie non danno la fiducia al Governo e partecipano alla legislazione solo sulle questioni più importanti, mentre svolgono funzioni di controllo connesse con il fatto che i Senatori rappresentano le autonomie"}]
-						},
-						{"claim": "questi altri Paesi europei in generale hanno funzionato bene"}
-					]
-				},
-				{"claim": "perché il nuovo rapporto fiduciario supera i problemi derivanti da due sistemi elettorali diversi",
-					"connector": "o",
-					"reasons": [
-						{"claim": "per quanto riguarda l'Italicum, tutte le maggioranze qualificate restano o sono rafforzate",
-							"connector": "o",
-							"reasons": [{"claim": "il premio di maggioranza, da solo, non permette ad un'unica forza politica di eleggere le più alte cariche dello Stato e degli organi di giustizia"}]
-						},
-						{"claim": "una forza politica sola deve fare comunque i conti con possibili dissensi interni, pur contando su 340 seggi"}
-					]
-				}
-			]
-		},
-		"ruolo_e_funzioni_NO": {
-		  "claim": "Non è giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
-	    "connector": "o",
-	    "reasons": [
-	      {"claim": "perché elimina un contro-potere politico esterno alla Camera senza compensare tale svuotamento",
-	        "connector": "e",
-	        "reasons": [
-	          {"claim": "elimina un contro-potere politico esterno alla Camera"},
-	          {"claim": "non compensa tale svuotamento con il rafforzamento del sindacato ispettivo"}
-	        ]
-	      },
-	      {
-	        "claim": "perché ci allontana da tutti gli altri esempi nel mondo",
-	        "connector": "o",
-	        "reasons": [
-	          {"claim": "La Germania ha un ordinamento federale e ogni regione costituisce uno Stato sovrano. Sono i governi delle regioni a nominare direttamente i propri senatori (da 3 a 6 a seconda della popolazione), i quali sono sottoposti a vincolo di mandato e devono votare uniformemente alle decisioni prese dalla regione. Inoltre, il Bundesrat ha potere di veto su tutta la legislazione che riguarda le competenze regionali, con enormi capacità di interdizione"},
-	          {"claim": "In Francia si eleggono prima 150mila \"grandi elettori\" che, a loro volta, eleggono i senatori. Inoltre, a differenza del nuovo Senato italiano, i mandati parlamentari non si possono sovrapporre a incarichi di governo a livello regionale o locale"},
-	          {"claim": "Nel Regno Unito, la Camera dei Lord (non elettiva) non rappresenta le istituzioni territoriali. La sua funzione è piuttosto quella di apportare modifiche di carattere tecnico alle leggi e di garantire una maggiore ponderazione delle scelte legislative, soprattutto in presenza di contrasti sociali e dissensi particolarmente forti nella società"},
-	          {"claim": "Il Senato degli Usa, composto da un totale di 100 senatori, ha una funzione di contrappeso a garanzia della divisione dei poteri. Tutti gli elettori degli Stati membri della Federazione eleggono 2 senatori, in elezioni separate da quelle presidenziali che si svolgono ogni due anni. Il procedimento legislativo, negli Stati Uniti, è improntato ad una forma di bicameralismo paritario"}
-	        ]
-	      },
-	      {
-	      	"claim": "perché concentra nella sola Camera la fiducia al Governo, che è un accentramento controproducente",
-	        "connector": "e",
-	        "reasons": [
-	          {"claim": "con la nuova legge elettorale, un solo partito potrà formare il Governo e ottenere la fiducia alla Camera, anche se espressione di una esigua minoranza di votanti"},
-	          {
-	            "claim": "la fiducia data dalla sola Camera è controproducente",
-	            "connector": "e",
-	            "reasons": [
-	              {
-	                "claim": "non contribuisce alla stabilità",
-	                "connector": "o",
-	                "reasons": [
-	                  {"claim": "nella storia repubblicana  il diniego della fiducia ha fatto cadere soltanto due governi (i due governi Prodi)"}
-	                ]
-	              },
-	              {
-	                "claim": "non contribuisce alla governabilità",
-	                "connector": "e",
-	                "reasons": [
-	                  {"claim": "la governabilità non dipende dal numero delle camere ma dalla coesione della maggioranza"},
-	                  {"claim": "una maggioranza composita e frammentata non potrà mai produrre governabilità"}
-	                ]
-	              }
-	            ]
-	          }
-	        ]
-	      },
-	      {
-	        "claim": "perché il ruolo del senato è confuso",
-	        "connector": "e",
-	        "reasons": [
-	          {
-	            "claim": "rappresenta gli enti territoriali ma ha anche altre funzioni non omogenee",
-	            "connector": "o",
-	            "reasons": [{"claim": "il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55."}]
+{"referendum": 
+	{ "senato":
+		{
+			"ruolo_e_funzioni_SI": {
+				"claim": "E' giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
+				"connector": "o",
+				"reasons": [
+					{"claim": "per ragioni storiche",
+						"connector": "o",
+						"reasons": [
+							{"claim": "perché era previsto anche dalla riforma del Titolo V del 2001"},
+							{"claim": "perché non è come i Costituenti avrebbero voluto",
+								"connector": "o",
+								"reasons": [{"claim": "Il Senato voluto dai nostri costituenti doveva essere rappresentativo delle Regioni ed essere molto diverso dalla Camera, per durata in carica e sistema elettorale. Ma poi, per una scelta delle maggioranze di governo, l'istituzione delle regioni venne ritardata di 22 anni, e con una riforma costituzionale venne stabilita la perfetta parità delle due Camere"}]
+							}
+						]
+					},
+					{"claim": "perché giustamente coinvolge stabilmente le regioni",
+						"connector": "e",
+						"reasons": [
+							{"claim": "perché coinvolge stabilmente le regioni"},
+							{"claim": "coinvolgere stabilmente le regioni è buono",
+								"connector": "o",
+								"reasons": [
+									{"claim": "coinvolgere stabilmente le regioni riduce le conflittualità e i ritardi nelle discussioni delle leggi",
+										"connector": "o",
+										"reasons": [
+											{"claim": "le regioni devono poter decidere quali siano gli interessi in gioco prima che le leggi entrino in vigore"},
+											{"claim": "l'intervento delle regioni prima dell'entrata in vigore delle leggi riduce il ricorso alla Corte Costituzionale"}
+										]
+									},
+									{"claim": "coinvolgere stabilmente le regioni aumenta il tasso di democraticità del nostro sistema"}
+								]
+							}
+						]
+					},
+					{"claim": "perché se viene eletto diversamente dalla Camera è giusto che abbia funzioni diverse"},
+					{"claim": "perché è in linea con altre esperienze di Paesi europei che in generale hanno funzionato bene",
+						"connector": "e",
+						"reasons": [
+							{"claim": "è in linea con le esperienze di altri Paesi europei",
+								"connector": "o",
+								"reasons": [{"claim": "in Europa, tutti i Senati rappresentativi delle autonomie non danno la fiducia al Governo e partecipano alla legislazione solo sulle questioni più importanti, mentre svolgono funzioni di controllo connesse con il fatto che i Senatori rappresentano le autonomie"}]
+							},
+							{"claim": "questi altri Paesi europei in generale hanno funzionato bene"}
+						]
+					},
+					{"claim": "perché il nuovo rapporto fiduciario supera i problemi derivanti da due sistemi elettorali diversi",
+						"connector": "o",
+						"reasons": [
+							{"claim": "per quanto riguarda l'Italicum, tutte le maggioranze qualificate restano o sono rafforzate",
+								"connector": "o",
+								"reasons": [{"claim": "il premio di maggioranza, da solo, non permette ad un'unica forza politica di eleggere le più alte cariche dello Stato e degli organi di giustizia"}]
+							},
+							{"claim": "una forza politica sola deve fare comunque i conti con possibili dissensi interni, pur contando su 340 seggi"}
+						]
+					}
+				]
+			},
+			"ruolo_e_funzioni_NO": {
+			  "claim": "Non è giusto cambiare il ruolo e le funzioni del Senato come previsto dalla Riforma",
+		    "connector": "o",
+		    "reasons": [
+		      {"claim": "perché elimina un contro-potere politico esterno alla Camera senza compensare tale svuotamento",
+		        "connector": "e",
+		        "reasons": [
+		          {"claim": "elimina un contro-potere politico esterno alla Camera"},
+		          {"claim": "non compensa tale svuotamento con il rafforzamento del sindacato ispettivo"}
+		        ]
+		      },
+		      {
+		        "claim": "perché ci allontana da tutti gli altri esempi nel mondo",
+		        "connector": "o",
+		        "reasons": [
+		          {"claim": "La Germania ha un ordinamento federale e ogni regione costituisce uno Stato sovrano. Sono i governi delle regioni a nominare direttamente i propri senatori (da 3 a 6 a seconda della popolazione), i quali sono sottoposti a vincolo di mandato e devono votare uniformemente alle decisioni prese dalla regione. Inoltre, il Bundesrat ha potere di veto su tutta la legislazione che riguarda le competenze regionali, con enormi capacità di interdizione"},
+		          {"claim": "In Francia si eleggono prima 150mila \"grandi elettori\" che, a loro volta, eleggono i senatori. Inoltre, a differenza del nuovo Senato italiano, i mandati parlamentari non si possono sovrapporre a incarichi di governo a livello regionale o locale"},
+		          {"claim": "Nel Regno Unito, la Camera dei Lord (non elettiva) non rappresenta le istituzioni territoriali. La sua funzione è piuttosto quella di apportare modifiche di carattere tecnico alle leggi e di garantire una maggiore ponderazione delle scelte legislative, soprattutto in presenza di contrasti sociali e dissensi particolarmente forti nella società"},
+		          {"claim": "Il Senato degli Usa, composto da un totale di 100 senatori, ha una funzione di contrappeso a garanzia della divisione dei poteri. Tutti gli elettori degli Stati membri della Federazione eleggono 2 senatori, in elezioni separate da quelle presidenziali che si svolgono ogni due anni. Il procedimento legislativo, negli Stati Uniti, è improntato ad una forma di bicameralismo paritario"}
+		        ]
+		      },
+		      {
+		      	"claim": "perché concentra nella sola Camera la fiducia al Governo, che è un accentramento controproducente",
+		        "connector": "e",
+		        "reasons": [
+		          {"claim": "con la nuova legge elettorale, un solo partito potrà formare il Governo e ottenere la fiducia alla Camera, anche se espressione di una esigua minoranza di votanti"},
+		          {"claim": "la fiducia data dalla sola Camera è controproducente",
+		            "connector": "e",
+		            "reasons": [
+		              {
+		                "claim": "non contribuisce alla stabilità",
+		                "connector": "o",
+		                "reasons": [
+		                  {"claim": "nella storia repubblicana  il diniego della fiducia ha fatto cadere soltanto due governi (i due governi Prodi)"}
+		                ]
+		              },
+		              {
+		                "claim": "non contribuisce alla governabilità",
+		                "connector": "e",
+		                "reasons": [
+		                  {"claim": "la governabilità non dipende dal numero delle camere ma dalla coesione della maggioranza"},
+		                  {"claim": "una maggioranza composita e frammentata non potrà mai produrre governabilità"}
+		                ]
+		              }
+		            ]
+		          }
+		        ]
+		      },
+		      {"claim": "perché il ruolo del senato è confuso",
+		        "connector": "e",
+		        "reasons": [
+		          {"claim": "rappresenta gli enti territoriali ma ha anche altre funzioni non omogenee",
+		            "connector": "o",
+		            "reasons": [{"claim": "il nuovo Senato, pur diventando un organo di rappresentanza territoriale, continuerebbe ad esercitare funzioni tipiche di un organo dello Stato, quali l'esercizio della potestà di revisione costituzionale, le funzioni di raccordo tra Stato ed Unione Europea e tutte le altre funzioni previste dal quarto comma del nuovo art. 55."}]
+		          },
+		          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco"}
+		        ]
+		      }
+		    ]
+		  },
+		  "modalità_di_elezione_SI": {
+	      "claim": "È giusto ridurre il numero dei senatori",
+	      "connector": "o",
+	      "reasons": [
+	        {"claim": "per la diversa rappresentanza delle camere",
+	          "connector": "e",
+	          "reasons": [
+	            {"claim": "mentre i componenti della Camera continueranno a rappresentare l'intera Nazione, quelli del Senato rappresenteranno le istituzioni territoriali e proverranno, per la quasi totalità, dalle Regioni e dai Comuni"},
+	            {"claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"}
+	          ]
+	        },
+	        {"claim": "perché riduce i costi, come parte di uno sforzo complessivo"},
+	        {"claim": "QUESTO VA ALTROVEperché è giusto che il Presidente continui a nominare alcuni senatori" ,
+	          "connector": "o" ,
+	          "reasons": [{"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}]
+	        }
+	      ]
+	    },
+			"modalità_di_elezione_NO": {
+				"claim": "Non è giusto modificare il numero dei senatori",
+				"connector": "o",
+				"reasons": [
+					{"claim": "perché si creerebbe un grande squilibrio tra le due camere",
+						"connector": "e",
+						"reasons": [
+							{"claim": "la riforma sottodimensiona irrazionalmente la composizione del Senato (100 senatori) rispetto alla composizione della Camera dei deputati (630 deputati)"},
+							{"claim": "rende praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."}
+						]
+					},
+					{"claim": "perchè la riduzione dei costi è risibile e non necessariamente buona",
+						"connector": "e",
+						"reasons": [
+							{"claim": "il risparmio è di spiccioli" ,
+								"connector" : "o",
+								"reasons": [{"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"}]
+							},
+							{"claim": "La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"}
+						]
+					},
+					{"claim": "non ha senso che personalità che hanno illustrato la Patria per altissimi meriti vadano ad esercitare il loro magistero culturale nel senato" ,
+						"connector": "e" ,
+						"reasons": [
+							{"claim": "Secondo la Riforma il Senato rappresenta le istituzioni territoriali."},
+							{"claim": "Sarebbe più logico prevedere questo pubblico riconoscimento nell’ambito della Camera dei deputati",
+								"connector": "o",
+								"reasons": [{"claim": "Secondo la Riforma, la Camera è l'unica a mantenere le funzioni di rappresentanza generale del popolo italiano."}]
+							}]
+					}
+				]
+			},
+			"il_procedimento_legislativo_SI": {
+				"claim": "È giusto modififcare il procedimento legislativo",
+				"connector": "o",
+				"reasons": [
+					{"claim": "per rendere il procedimento più funzionale, dimenuendo i tempi",
+						"connector": "o",
+						"reasons": [{"claim": "il superamento dell'anacronistico bicameralismo perfetto permette di accrescere la funzionalità delle istituzioni e di cessare di essere un'eccezione mondiale. Le leggi non dovranno più pendolare tra Camera e Senato, nella speranza che alla fine si arrivi ad un testo condiviso sin nelle virgole."}]
+					},
+					{"claim": "perchè non produce una maggiore complessità",
+						"connector": "o",
+						"reasons": [
+							{"claim": "è' vero che il procedimento legislativo subisce complicazioni, ma resta in linea con i procedimenti legislativi degli altri Stati con parlamento bicamerale" ,
+								"connector" : "o",
+								"reasons": [{"claim": "a differenza di quanto ora prescritto dalla Costituzione, la riforma prevede, dopo l'approvazione da parte della Camera, una tempistica precisa per ogni tipologia di procedimento legislativo, con termini massimi che non potranno essere derogati."}]
+							},
+							{"claim": "la pluralità dei procedimenti legislativi, inoltre, non è una novità dovuta alla riforma ma è già presente nell'ordinamento" ,
+								"connector" :"o",
+								"reasons": [{"claim": "al procedimento legislativo ordinario, si affiancano attualmente (tra gli altri) il procedimento abbreviato, quello decentrato, quello redigente, quello per le leggi di bilancio, quello per le leggi di conversione dei decreti-legge, e quello per l'approvazione delle leggi di amnistia ed indulto" }]
+							},
+							{"claim": "si dice che la scarsa chiarezza dei poteri del nuovo Senato possa minacciare di complicare il procedimento di formazione delle leggi, ma non è vero" ,
+								"connector": "o" ,
+								"reasons" : [{"claim": "a parte poche specifche materie che restano bicamerali, il Senato può occuparsi di tutte le leggi, su Cui la Camera avrà l'ultima parola" }]
+							}
+						]
+					},
+					{"claim": "per l'influenza del senato" ,
+						"connector": "o" ,
+						"reasons" : [{"claim": "Eventuali colpi di mano della maggioranza possono essere impediti dal Senato, il quale può richiamare tutte le leggi (ma lasciando comunque alla Camera l'ultima parola). Il numero di senatori che può attivare l'iter del Senato è tale da garantire alle minoranze di poterlo fare"}]
+					}
+				]
+			},
+
+			"il_procedimento_legislativo_NO": {
+				"claim": "È giusto modififcare il procedimento legislativo",
+				"connector": "o",
+				"reasons": [
+					{"claim": "perchè rende il procedimento più confuso, eliminando garanzie",
+						"connector": "o",
+						"reasons": [
+							{"claim": "le navette prolungate con reiterati passaggi tra le due camere sono in genere sintomo di difficoltà politiche nella maggioranza, che – se ci fossero – si manifesterebbero anche con una sola camera decidente"},
+							{"claim": "non è vero che le leggi prodotte con il sistema attuale sono poche",
+								"connector": "o",
+								"reasons": [{"claim": " i dati relativi al periodo 1997-2011 dicono che, in Italia, sono state approvate 1894; nello stesso periodo, sono state 2153 in Germania, 1385 in Francia, 700 in Spagna, 630 nel Regno Unito"}]
+							},
+							{"claim": "la doppia lettura costituisce una garanzia per le leggi che riguardano i diritti fondamentali dei cittadini",
+								"connector": "o",
+								"reasons": [
+									{"claim": "nell'attuale congiuntura politica, l'ascolto delle istanze altrui viene vissuto come fastidio e perdita di tempo: ciò forse rende più veloce il processo, ma non certo migliori le leggi",
+										"connector" : "o",
+										"reasons" : [{"claim": "la legge dovrebbe durare oltre lo spazio di una legislatura e dovrebbe comporre e tenere presenti gli interessi di tutti: soltanto attraverso un attento confronto tra le diverse parti sociali e politiche, nella sede naturale del Parlamento, la legge — meglio ponderata — diviene espressione della sovranità popolare"}]
+									}
+								]
+							}
+						]
+					},
+					{"claim": "perchè non semplifica",
+						"connector": "e", 
+						"reasons": [
+							{"claim": "La riforma sostituisce gli articoli 70 e 72 (198 parole) con 870 parole (può mai essere una semplificazione?) che complicano l'iter di formazione delle leggi",
+								"connector": "e", 
+								"reasons": [{"claim": "sono infatti una decina le diverse modalità previste di approvazione di una legge: i Presidenti di Camera e Senato dovranno risolvere i casi controversi (ossia se seguire l'uno o l'altro iter di formazione) e diventa forte il rischio di aumentare il contenzioso davanti alla Corte Costituzionale (a causa di possibili vizi di legittimità costituzionale di natura procedimentale)"}]
+							}
+						]
+					},
+					{"claim": "per l'infuenza del senato" ,
+						"conector": "e",
+						"reasons" : [{"claim": "data la composizione non elettiva del Senato, non si capisce con quale legittimazione sostanziale possa esso partecipare paritariamente su materie di grande rilievo, come ad esempio le riforme costituzionali"}]
+					}
+				]
+			},
+
+			"diritti_dei_senatori_e_statuto_delle_minoranze_SI": {
+			  "claim": "È giusto modififcare i diritti dei senatori e implementare lo statuto delle minoranze",
+			  "connector": "o",
+			  "reasons": [
+			    {"claim": "per ridurre i costi",
+			      "connector": "o",
+			      "reasons": [
+			        {
+			          "claim": "i futuri senatori non percepiranno alcun emolumento; questa misura rientra nell'ambito di uno sforzo complessivo per ridurre o contenere alcuni costi della politica (che riguarda anche il numero dei senatori, gli stipendi dei consiglieri regionali e la fusione del personale delle Camere)"
+			        }
+			      ]
+			    },
+			    {"claim": "perchè attualmente nella costituzione non esiste lo stauto delle minoranze",
+			      "connector": "o",
+			      "reasons": [
+			        {"claim": "a differenza dell'attuale Costituzione, nella riforma si prescrive che i regolamenti parlamentari dovranno dettare apposite disposizioni per garantire i diritti delle minoranze parlamentari. Si aggiunge, inoltre, che nel regolamento della Camera dovrà essere contenuta un'apposita disciplina relativa allo statuto delle opposizioni."}
+			      ]
+			    },
+			    {"claim": "perchè i senatori così godranno solo delle immunità parlamentari, che proteggono i parlamentari in ragione della funzione che svolgono, non in ragione di un privilegio"}
+			  ]
+			},
+
+			"diritti_dei_senatori_e_statuto_delle_minoranze_NO": {
+			      "claim": "Non è giusto modififcare i diritti dei senatori e implementare lo statuto delle minoranze",
+			      "connector": "o",
+			      "reasons": [
+			        {
+			          "claim": "perchè il risparmio è minimo",
+			          "connector": "o",
+			          "reasons": [
+			            {
+			              "claim": "la gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale. Mentre anche il senatore non elettivo ha un costo per la trasferta e la permanenza a Roma, nonché per l'esercizio delle funzioni (segreteria, assistente parlamentare ecc.). Risparmi con certezza maggiori si avrebbero riducendo la Camera a 400 deputati, e il Senato a 200. Avremmo in totale 600 parlamentari, invece dei 730 che la riforma ci consegna"
+			            }
+			          ]
+			        },
+			        {
+			          "claim": "perchè non è giusto che i senatori abbiano l'immunità",
+			          "connector": "o",
+			          "reasons": [
+			            {"claim" : "i futuri 100 senatori, in quanto sindaci o consiglieri regionali, non saranno compensati per le loro funzioni di senatore, ma avranno soltanto un rimborso-spese. Godranno dell'insindacabilità giudiziaria per i fatti posti in essere nell'esercizio delle proprie funzioni - il che è condivisibile - e, ancorché senatori solo part time, godrebbero anche dell'immunità personale dagli arresti, dalle perquisizioni personali e domiciliari, e dai sequestri della corrispondenza, col rischio - connesso all'abnorme numero dei consiglieri regionali attualmente indagati o addirittura rinviati a giudizio - di trasformare il Senato in un refugium peccatorum" ,
+			          "connector": "o",
+			          "reasons": [
+			            {
+			              "claim": "un'inchiesta penale a loro carico può diventare molto difficile, o di fatto impossibile. Le attività di indagine verrebbero scoraggiate, o quanto meno gravemente impedite, dalla difficoltà a distinguere le prerogative che riguardano funzioni di consigliere/sindaco da quelle di senatore"
+			            }
+			          ]
+			            }
+			          ]
+			        } ,
+			        {
+			          "claim": "perchè lo statuto delle opposizioni non sarebbe una forte garanzia",
+			          "connector": "o",
+			          "reasons": [
+			            {
+			              "claim": "dal momento che i regolamenti parlamentari devono comunque essere approvati dalla maggioranza dei componenti dell'assemblea, è di tutta evidenza che, grazie all'Italicum, sarà il partito di maggioranza a condizionare il destino dei diritti delle minoranze e delle opposizioni"
+			            }
+			          ]
+			        }
+			       
+			      ]
+    }
+  },
+
+
+
+	"stato-regioni":
+	        {
+          "il_procedimento_legislativo_SI": {
+					  "claim": "È giusto modififcare i criteri per stabilire la competenza legislativa",
+					  "connector": "o",
+					  "reasons": [
+		          {"claim": "per rendere il potere più accentrato",
+                    "connector": "o",
+                    "reasons": [
+                      {"claim": "per la prima volta, non si assiste ad un aumento dei poteri del sistema regionale e locale, bensì ad una loro razionalizzazione e riconduzione a dinamiche di governo complessive del paese" ,
+                      "connector": "o" ,
+                      "reasons": [
+                        {"claim": "la soppressione della legislazione concorrente comporta di per sé una riallocazione naturale della competenza che già spettava rispettivamente allo Stato o alle Regioni: per lo Stato, quella di disciplinare i principi fondamentali; per le Regioni, quella di disciplinare le norme di dettaglio"},
+                        {"claim" : "si riportano al centro le decisioni essenziali per il governo dell'intera collettività, e si mantengono in capo alle Regioni le scelte rilevanti per gli ambiti e gli interessi regionali"}
+                        ]
+                      }
+                    ]
+	            },
+	            {"claim": "per diminuire i contenziosi presso la Corte Costituzionale",
+                "connector": "o",
+                "reasons": [
+                    {"claim": "il ripartimento delle funzioni legislative tra Stato e Regioni consolida quanto la Corte costituzionale ha stabilito attraverso tantissime sentenze negli ultimi quindici anni" ,
+                    "connector" : "o",
+                    "reasons": [
+                      {"claim": "la riforma costituzionale del 2001 aveva infatti creato molta confusione, considerando concorrenti anche materie (grandi reti di trasporto e di navigazione; ordinamento della comunicazione; produzione, trasporto e distribuzione nazionale dell'energia, ecc.) in cui sarebbe del tutto irragionevole scostarsi dai principi fissati dallo Stato" ,
+                      "connector": "o" ,
+                      "reasons": [
+                        {"claim": "tuttavia, nessuna Regione ne ha mai emanate, e la Corte ha fatto salti mortali per spiegare che la competenza è dello Stato. La riforma del 2016 sancisce tutto questo con chiarezza"
+                        }
+                      ]
+                      }
+	                  ]
+  	  	  	      }
+    	  	      ]
 	          },
-	          {"claim": "obbliga i senatori a esercitare anche le funzioni di consigliere regionale o di sindaco"}
-	        ]
-	      }
-	    ]
-	  },
-	  "modalità_di_elezione_SI": {
-	                         "claim": "È giusto ridurre il numero dei senatori",
-	                         "connector": "o",
-	                         "reasons": [
-	                                 {"claim": "per la diversa rappresentanza delle camere",
-	                                         "connector": "o",
-	                                         "reasons": [
-	                                                 {"claim": "mentre i componenti della Camera continueranno a rappresentare l'intera Nazione, quelli del Senato rappresenteranno le istituzioni territoriali e proverranno, per la quasi totalità, dalle Regioni e dai Comuni"},
-	                                                 {"claim": "vi è la necessità di assicurare che il rapporto numerico tra deputati e senatori risulti coerente con la specifica posizione che nell'ordinamento costituzionale sarà assunto dal Senato in quanto luogo di rappresentanza delle istituzioni territoriali"}
-	                                         ]
-	                                 },
-	                                 {"claim": "per ridurre i costi",
-	                                         "connector": "o",
-	                                         "reasons": [
-	                                                 {"claim": "la misura rientra nell'ambito di uno sforzo complessivo per ridurre o contenere alcuni costi della politica"}
-	                                                                         ]
-	                                                                 },
-	                                 {"claim": "perché è giusto che il Presidente continui a nominare alcuni senatori" ,
-	                                 "connector": "o" ,
-	                                 "reasons" : [
-	                                   {"claim": "si tratta di un elemento di tradizione, aggiornata, che finora ha dato contributi molto qualificati alla vita parlamentare."}
-	                                   ]
+	          {"claim": "perchè, nel dettaglio, il nuovo ripartimento delle materie sarebbe migliore" ,
+	          "connector" :"o" ,
+	          "reasons": [
+	            {"claim" : "verso la competenza statale vengono spostate una serie di materie che la giurisprudenza della Corte Costituzionale dell'ultimo decennio aveva già riportato al centro e una serie di materie che in passato erano troppo superficialmente state devolute alle regioni"} ,
+	            {"claim" : " la riforma razionalizza l'esistente e riporta al centro competenze che naturalmente devono stare al centro e che richiedono evidentemente un intervento unitario, per permettere agli organi centrali di operare scelte omogenee sul territorio, spesso necessarie per portare avanti riforme di sistema"} ,
+	            {"claim" : "in virtù della competenza residuale che resterà sempre in capo alle Regioni, a queste ultime spetterà la necessaria potestà legislativa di attuazione e di specificazione, in modo da poter declinare le scelte unitarie dello Stato in relazione alle proprie esigenze connesse alla comunità ed al territorio regionali"}
+	            ]
+	            }
+	         ]
+         },
+         "il_procedimento_legislativo_NO": {}
+	  }
 
-	                                 }
-	             ]
-	           },
-	           "modalità_di_elezione_NO": {
-	                                   "claim": "Non è giusto modificare il numero dei senatori",
-	                                   "connector": "o",
-	                                   "reasons": [
-	                                           {"claim": "per l'irrazionale squilibrio che si verrebbe a creare tra le due camere",
-	                                                   "connector": "o",
-	                                                   "reasons": [
-	                                                           {"claim": "la riforma sottodimensiona irrazionalmente la composizione del Senato (100 senatori) rispetto alla composizione della Camera dei deputati (630 deputati)",
-	                                                             "connector" : "o" ,
-	                                                             "reasons": [
-	                                                              {"claim": "rende quindi praticamente irrilevante il voto dei senatori nelle riunioni del Parlamento in seduta comune."}
-	                                                               ]
-	                                                           }
 
-	                                                   ]
-	                                           },
-	                                           {"claim": "perchè i costi verrebbero ridotti, ma...",
-	                                                   "connector": "o",
-	                                                   "reasons": [
-	                                                           {"claim": "il risparmio è di spiccioli" ,
-	                                                           "connector" : "o",
-	                                                           "reasons": [
-	                                                             {"claim": "La gran parte dei costi viene non dalle indennità, ma dalla gestione degli immobili, dai servizi, dal personale"}
-	                                                               ]
-	                                                                           } ,
-	                                                                           {"claim": "la riduzione dei cosiddetti costi della politica non sempre equivale a qualcosa di buono. La politica costa e risparmiare non è assultamente sinonimo di rendere migliore"}
-	                                                             ]
-	                                                                           },
-	                                           {"claim": "non ha senso che personalità che hanno illustrato la Patria per altissimi meriti vadano ad esercitare il loro magistero culturale nel senato" ,
-	                                           "connector": "o" ,
-	                                           "reasons" : [
-	                                             {"claim": "esso infatti rappresenta esclusivamente le istituzioni territoriali e la sua funzione è di operare un raccordo tra lo Stato e gli altri enti costitutivi della Repubblica. Sarebbe stato molto più logico che questo pubblico riconoscimento fosse previsto nell’ambito della Camera dei deputati, la sola a mantenere le funzioni di rappresentanza generale del popolo italiano"}
-	                                             ]
-
-	                                           }
-	                       ]
-	                     }
 	}
-}
 }
