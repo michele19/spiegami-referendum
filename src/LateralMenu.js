@@ -6,6 +6,7 @@ import Divider from 'material-ui/Divider';
 import MenuItem from 'material-ui/MenuItem';
 import IconButton from 'material-ui/IconButton';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
+import ActionFeedback from 'material-ui/svg-icons/action/feedback';
 
 import NavLink from './NavLink'
 
@@ -39,11 +40,13 @@ export default class LateralMenu extends React.Component {
                 containerElement={<NavLink to="/referendum/senato/il_procedimento_legislativo" />}
                 key="il_procedimento_legislativo"
                 primaryText="Il procedimento legislativo"
+                rightIcon={<ActionFeedback/>}
               />,
               <MenuItem
                 containerElement={<NavLink to="/referendum/senato/diritti_dei_senatori_e_statuto_delle_minoranze" />}
                 key="diritti_dei_senatori_e_statuto_delle_minoranze"
                 primaryText="I diritti dei senatori"
+                rightIcon={<ActionFeedback/>}
               />
             ]}
           />
@@ -57,6 +60,7 @@ export default class LateralMenu extends React.Component {
                 containerElement={<NavLink to="/referendum/stato-regioni/il_procedimento_legislativo" />}
                 key="il_procedimento_legislativo"
                 primaryText="Il procedimento legislativo"
+                rightIcon={<ActionFeedback/>}
               />
             ]}
           />
