@@ -1,2 +1,97 @@
-{"claim": " è facilissimo"}
-{"claim": "ok"}
+{ "stato-regioni":
+	{
+		"Il procedimento legislativo_NO": {
+			"claim": "Non è giusto modififcare i criteri per stabilire la competenza legislativa" ,
+			"connector" : "o",
+			"reasons" : [
+			  {"claim": "per l'esagerato accentramento del potere" ,
+			  "connector" : "o",
+			  "reasons": [
+			    {"claim": "ci si allontana dal modello \"solidale\" di federalismo (basato sulla leale collaborazione e la \"concorrenza\" tra le funzioni), per avvicinarsi al modello \"competitivo\" (basato sulla netta separazione tra Stato e Regioni e tra Regioni)"} ,
+			    {"claim": " la riforma, infatti, riduce sostanzialmente lo spazio costituzionalmente riconosciuto alle autonomie",
+			      "connector": "o" ,
+			      "reasons": [
+			        {"claim": "il neo-centralismo statale è negativo in un contesto di complessiva riduzione degli spazi di partecipazione democratica e di rappresentanza politica",
+			        "connector": "o" , 
+			        "reasons": [
+			          {"claim": "con questo modello, il governo potrà (tra le altre cose) passare sulla testa delle popolazioni locali nella gestione del territorio sotto l'etichetta di opere di interesse nazionale o simili, e ciò non è accettabile"}
+			          ]
+			          
+			        }
+			        ]
+			    }
+			    ]
+			    
+			    
+			  } , 
+			  {"claim" : "perchè continueranno a esserci contenziosi presso la Corte costituzionale" ,
+			  "connector" : "o" ,
+			  "reasons" : [
+			    {"claim": "la soppressione della potestà concorrente in chiave di semplificazione del rapporto Stato-Regioni è pubblicità ingannevole",
+			      "connector": "o" ,
+			      "reasons": [
+			        {"claim": "la nuova categoria di \"disposizioni generali e comuni\" (che si applica tutta una serie di materie importanti quali la tutela della salute, le politiche sociali, l'istruzione anche universitaria, l'ordinamento scolastico, le attività culturali e sul turismo e molte altre) è difficile da distinguere dalle leggi cornice della attuale potestà concorrente"},
+			        {"claim": " la riforma non prevede, in favore delle Regioni, la necessaria potestà legislativa di attuazione sulle stesse materie. Questa nuova formulazione appare quindi di incerto significato, e dovrà intervenire la Corte costituzionale a chiarirne la portata"}
+			        ]
+			    },
+			    {"claim": "la riforma dimentica di attribuire la competenza legislativa esclusiva in materia importanti quali la circolazione stradale, i lavori pubblici, l'industria, l'agricoltura, l'artigianato, l'attività mineraria, le cave, la caccia e la pesca"},
+			    {"claim": "si è conservato il vecchio criterio di riparto delle competenze legislative tra Stato e Regioni (il criterio delle materie) che è stato indicato dalla Corte costituzionale come un fattore di destabilizzazione",
+			      "connector" : "o" ,
+			      "reasons": [
+			        {"claim": "non si è colta l'occasione per passare ad un criterio diverso (ad esempio quello delle funzioni) che potesse effettivamente semplificare e ridurre il contenzioso tra centro e periferia"}
+			        ]
+			    }
+			    ]
+			    
+			  } ,
+			  {"claim" : "perchè, nel dettaglio, il ripartimento delle materie non sarebbe giusto",
+			  "connector": "o",
+			  "reasons": [
+			    {"claim": "viene profondamente sconvolta l'autonomia legislativa delle Regioni, attribuendo allo Stato centrale il potere di decidere su temi fondamentali di rilevanza territoriale come la tutela dell'ambiente, e sottraendo alle Regioni ogni possibilità di governo del territorio"},
+			    {"claim": "alle Regioni viene invece attribuita la potestà legislativa soltanto su 15 materie (contro le 50 del Governo) di contenuto prevalentemente organizzativo"}
+			    
+			    ]
+			    
+			  },
+			  {"claim": "per la reintroduzione della clausola di supremazia" ,
+			  "connector": "o",
+			  "reasons": [
+			    {"claim": "Grazie alla clausola di supremazia statale (soprannominata \"clausola-vampiro\"), la Camera dei deputati o il Governo (rispettivamente con una legge o con un decreto legge) potrebbero, senza alcun limite, intervenire in qualsiasi materia di competenza legislativa esclusiva delle Regioni \"quando lo richieda la tutela dell'unità giuridica o economica della Repubblica ovvero la tutela dell'interesse nazionale\""}]
+			  }
+			  ]
+			
+		}
+  }
+}
+
+
+
+
+
+
+
+{ "Altre modifiche":
+	{
+		"Formulazione e discussione dei decreti legge_SI": {
+		  "claim": "È giusto modificare la disciplina in merito alla discussione e alla formulazione dei decreti legge" ,
+		  "connector" :"o",
+		  "reasons": [
+		    {"claim": "perché la riforma non attribuisce nuovi poteri legislativi al Governo, e casomai limita il ricorso ai decreti-legge, che attualmente sono una vera piaga" , 
+		    "connector": "o",
+		    "reasons": [
+		    {"claim": "questo perché il Governo, non avendo una \"corsia preferenziale\" in Parlamento per l’approvazione dei propri disegni di legge, ricorre ai decreti-legge anche al di fuori dei casi straordinari di necessità e di urgenza di cui parla la nostra Costituzione"}]} ,
+		    {"claim": "perchè la riforma prevede che il Governo possa chiedere alla Camera di deliberare entro 70 giorni su un progetto ritenuto \"essenziale per l’attuazione del programma di governo\"",
+		      "connector": "o",
+		      "reasons": [
+		        {"claim": "in questo modo la riforma fornisce una nuova opportunità di veder approvare un progetto \"essenziale\" in tempi certi, e nello stesso tempo limita il ricorso ai decreti-legge, tornando a far rispettare quello che dice la Costituzione"}]
+		    },
+		    {"claim": "perché i poteri normativi del governo vengono riequilibrati per evitare l’impiego elevato che si è registrato nel corso degli ultimi anni",
+		    "connector": "o",
+		    "reasons": [
+		      {"claim": "questo intervento viene compensato dalla garanzia di avere una risposta parlamentare alle principali iniziative governative in tempi certi, con la fissazione di un periodo massimo entro cui il procedimento deve concludersi"}]
+		      
+		    }
+		    ]
+		}
+	}
+}
